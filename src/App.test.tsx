@@ -1,5 +1,5 @@
 import { App } from "App";
-import { accessibilityViolationsCheck } from "testUtils";
+import { accessibilityViolationsCheck } from "testUtils"; // if we import this from setupTests instead, everything breaks
 import { render, screen } from "@testing-library/react";
 
 let component: HTMLElement | undefined;
