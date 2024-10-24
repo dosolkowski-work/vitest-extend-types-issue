@@ -1,0 +1,1 @@
+export const App = () => <p>This is just a test.</p>
