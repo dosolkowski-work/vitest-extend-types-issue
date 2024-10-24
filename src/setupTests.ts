@@ -1,3 +1,5 @@
+import "@testing-library/jest-dom/vitest"; // This adds jest-dom assertions such as .toBeVisible()
+
 expect.extend({
     toBeFrob(actual) {
         if (typeof actual !== "string") {
