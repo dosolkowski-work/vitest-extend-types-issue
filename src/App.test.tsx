@@ -1,6 +1,6 @@
 import { App } from "App";
+import { accessibilityViolationsCheck } from "testUtils";
 import { render, screen } from "@testing-library/react";
-import { accessibilityViolationsCheck } from "setupTests";
 
 let component: HTMLElement | undefined;
 
